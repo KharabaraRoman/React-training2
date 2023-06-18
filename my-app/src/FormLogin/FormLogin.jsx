@@ -8,6 +8,16 @@ class FormLogin extends Component {
         isChecked: false,
         gender: 'male'
     };
+    // componentDidMount() {
+    //     console.log('Mount')
+    // }
+    // componentDidUpdate(prevProps, prevState) {
+    //     console.log('Update')
+    // }
+
+    // componentWillUnmount() {
+    //     console.log('Unmount')
+    // }
 
     handleChange = ({ target }) => {
         this.setState({
